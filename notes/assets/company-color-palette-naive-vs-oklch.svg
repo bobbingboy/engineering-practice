@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" font-family="-apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <rect width="920" height="430" fill="#ffffff"/>
+
+  <!-- header row -->
+  <text x="40" y="42" font-size="14" font-weight="700" fill="#5c666e">原品牌色</text>
+  <text x="300" y="42" font-size="14" font-weight="700" fill="#b3541e">RGB 混黑（天真加深）</text>
+  <text x="610" y="42" font-size="14" font-weight="700" fill="#1f7a52">OKLCH 降亮度（保彩度）</text>
+  <line x1="40" y1="56" x2="880" y2="56" stroke="#e3e7ea" stroke-width="1"/>
+
+  <!-- row 1: 粉彩粉 -->
+  <rect x="40" y="80" width="64" height="64" rx="10" fill="#e8a8b8" stroke="rgba(0,0,0,0.08)"/>
+  <text x="118" y="106" font-size="14" font-weight="600" fill="#1f2428">粉彩粉</text>
+  <text x="118" y="126" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#e8a8b8</text>
+
+  <rect x="300" y="80" width="30" height="30" rx="6" fill="#946c76"/>
+  <text x="340" y="95" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#946c76</text>
+  <text x="340" y="111" font-size="11.5" fill="#8a949c">對白底 4.50:1</text>
+  <text x="300" y="142" font-size="17" font-weight="600" fill="#946c76">品牌連結文字 Aa</text>
+
+  <rect x="610" y="80" width="30" height="30" rx="6" fill="#a06675"/>
+  <text x="650" y="95" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#a06675</text>
+  <text x="650" y="111" font-size="11.5" fill="#8a949c">對白底 4.51:1</text>
+  <text x="610" y="142" font-size="17" font-weight="600" fill="#a06675">品牌連結文字 Aa</text>
+
+  <line x1="40" y1="168" x2="880" y2="168" stroke="#f0f2f4" stroke-width="1"/>
+
+  <!-- row 2: 淡駝 -->
+  <rect x="40" y="192" width="64" height="64" rx="10" fill="#d9c4a0" stroke="rgba(0,0,0,0.08)"/>
+  <text x="118" y="218" font-size="14" font-weight="600" fill="#1f2428">淡駝</text>
+  <text x="118" y="238" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#d9c4a0</text>
+
+  <rect x="300" y="192" width="30" height="30" rx="6" fill="#80745e"/>
+  <text x="340" y="207" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#80745e</text>
+  <text x="340" y="223" font-size="11.5" fill="#8a949c">對白底 4.59:1</text>
+  <text x="300" y="254" font-size="17" font-weight="600" fill="#80745e">品牌連結文字 Aa</text>
+
+  <rect x="610" y="192" width="30" height="30" rx="6" fill="#877452"/>
+  <text x="650" y="207" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#877452</text>
+  <text x="650" y="223" font-size="11.5" fill="#8a949c">對白底 4.52:1</text>
+  <text x="610" y="254" font-size="17" font-weight="600" fill="#877452">品牌連結文字 Aa</text>
+
+  <line x1="40" y1="280" x2="880" y2="280" stroke="#f0f2f4" stroke-width="1"/>
+
+  <!-- row 3: 薰衣草 -->
+  <rect x="40" y="304" width="64" height="64" rx="10" fill="#b8a8d9" stroke="rgba(0,0,0,0.08)"/>
+  <text x="118" y="330" font-size="14" font-weight="600" fill="#1f2428">薰衣草</text>
+  <text x="118" y="350" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#b8a8d9</text>
+
+  <rect x="300" y="304" width="30" height="30" rx="6" fill="#7b7191"/>
+  <text x="340" y="319" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#7b7191</text>
+  <text x="340" y="335" font-size="11.5" fill="#8a949c">對白底 4.55:1</text>
+  <text x="300" y="366" font-size="17" font-weight="600" fill="#7b7191">品牌連結文字 Aa</text>
+
+  <rect x="610" y="304" width="30" height="30" rx="6" fill="#7e6e9c"/>
+  <text x="650" y="319" font-size="12.5" fill="#5c666e" font-family="Menlo, monospace">#7e6e9c</text>
+  <text x="650" y="335" font-size="11.5" fill="#8a949c">對白底 4.57:1</text>
+  <text x="610" y="366" font-size="17" font-weight="600" fill="#7e6e9c">品牌連結文字 Aa</text>
+
+  <!-- footnote -->
+  <text x="40" y="412" font-size="12.5" fill="#5c666e">兩欄同樣達成 ≥4.5:1——左欄把彩度一併壓掉（灰濁），右欄只降亮度、保留色相與彩度，仍看得出是品牌色的家族成員。</text>
+</svg>

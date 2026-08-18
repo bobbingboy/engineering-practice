@@ -61,7 +61,16 @@ finalize
 | `spring-transaction-rollback-exception-masking` | rollback 失敗會覆蓋原始例外，以及 Spring 留在哪裡的底 |
 | `mssql-jdbc-12x-ssl-hikaricp-connection-pool-masking` | driver 預設值變更 ＋ 連線池造成的雙重症狀遮蔽 |
 | `cli-java-test-execution-pitfalls` | surefire 不下探 `@Nested` 的假綠燈：`BUILD SUCCESS` 但測試沒跑 |
+| `esm-cjs-and-jest-transform-boundary` | ESM-only 套件撞上 Jest transform 邊界：`Tests: 0` 不是測試失敗 |
+| `react-frontend-testing-quickstart` | CRA ＋ Jest ＋ RTL 的測試起手與常見卡點 |
+| `shared-lib-change-routing` | 共用 lib 的改動該住哪裡：歸屬判斷路由 |
 | `Consistency-Refactoring-Dialectics` | 對齊式重構何時該做：動機 × 對照組 × 時機三個維度 |
+| `request-deduplication-in-flight-cache` | 為什麼快取要在 response 回來前就存在 |
+| `i18n-libraries-and-translation-structure` | 五個 i18n 函式庫比較、key 命名策略與翻譯檔結構 |
+| `Deploy-Skill-Gate-Mechanism` | 部署閘門的防禦縱深：為什麼 gate 要在流程外再檢查一次 |
+| `company-color-palette-guide` | 不改品牌色的前提下解對比：角色限定 ＋ OKLCH 衍生色階 |
+
+其中幾篇彼此相關，內文以相對連結互指。
 
 ## 安裝
 

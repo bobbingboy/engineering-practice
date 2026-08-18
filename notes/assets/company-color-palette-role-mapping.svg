@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" font-family="-apple-system, 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <rect width="920" height="360" fill="#ffffff"/>
+
+  <!-- direction hint -->
+  <text x="40" y="36" font-size="12.5" fill="#8a949c">亮（大面積背景）</text>
+  <text x="880" y="36" font-size="12.5" fill="#8a949c" text-anchor="end">暗（文字／前景）</text>
+  <line x1="160" y1="31" x2="740" y2="31" stroke="#d4dade" stroke-width="1.5"/>
+  <path d="M 740 31 l -8 -4 v 8 z" fill="#d4dade"/>
+
+  <!-- brand badge -->
+  <rect x="216" y="52" width="158" height="24" rx="12" fill="#1f2428"/>
+  <text x="295" y="69" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">品牌色本尊・原樣保留</text>
+  <line x1="295" y1="76" x2="295" y2="88" stroke="#1f2428" stroke-width="2"/>
+
+  <!-- swatch row (y=90, h=96) -->
+  <!-- light -->
+  <rect x="40" y="90" width="150" height="96" rx="12" fill="#f9fbe6" stroke="rgba(0,0,0,0.08)"/>
+  <text x="115" y="144" font-size="13" fill="#5c666e" text-anchor="middle" font-family="Menlo, monospace">#f9fbe6</text>
+
+  <!-- brand (highlighted) -->
+  <rect x="220" y="88" width="150" height="100" rx="12" fill="#c3d600" stroke="#1f2428" stroke-width="2.5"/>
+  <text x="295" y="144" font-size="13" fill="#3a3f00" text-anchor="middle" font-family="Menlo, monospace">#c3d600</text>
+
+  <!-- main -->
+  <rect x="400" y="90" width="150" height="96" rx="12" fill="#8f9d00" stroke="rgba(0,0,0,0.08)"/>
+  <text x="475" y="144" font-size="13" fill="#171900" text-anchor="middle" font-family="Menlo, monospace">#8f9d00</text>
+
+  <!-- brandText / dark -->
+  <rect x="580" y="90" width="150" height="96" rx="12" fill="#727d00" stroke="rgba(0,0,0,0.08)"/>
+  <text x="655" y="144" font-size="13" fill="#ffffff" text-anchor="middle" font-family="Menlo, monospace">#727d00</text>
+
+  <!-- contrastText -->
+  <rect x="760" y="90" width="120" height="96" rx="12" fill="#171900" stroke="rgba(0,0,0,0.08)"/>
+  <text x="820" y="144" font-size="13" fill="#ffffff" text-anchor="middle" font-family="Menlo, monospace">#171900</text>
+
+  <!-- role labels -->
+  <text x="115" y="216" font-size="14" font-weight="700" fill="#1f2428" text-anchor="middle">light</text>
+  <text x="115" y="236" font-size="12" fill="#5c666e" text-anchor="middle">大面積淡底</text>
+  <text x="115" y="253" font-size="12" fill="#5c666e" text-anchor="middle">登入頁／職缺頁背景</text>
+
+  <text x="295" y="216" font-size="14" font-weight="700" fill="#1f2428" text-anchor="middle">brand</text>
+  <text x="295" y="236" font-size="12" fill="#5c666e" text-anchor="middle">logo・裝飾・chip 淡底</text>
+  <text x="295" y="253" font-size="12" fill="#5c666e" text-anchor="middle">對白底 1.62:1，不當文字</text>
+  <text x="295" y="270" font-size="12" fill="#8a6d1a" text-anchor="middle">WCAG 1.4.3 豁免 logo 文字</text>
+
+  <text x="475" y="216" font-size="14" font-weight="700" fill="#1f2428" text-anchor="middle">main</text>
+  <text x="475" y="236" font-size="12" fill="#5c666e" text-anchor="middle">互動填色 ≥3:1</text>
+  <text x="475" y="253" font-size="12" fill="#5c666e" text-anchor="middle">按鈕背景・選中膠囊底</text>
+
+  <text x="655" y="216" font-size="14" font-weight="700" fill="#1f2428" text-anchor="middle">brandText / dark</text>
+  <text x="655" y="236" font-size="12" fill="#5c666e" text-anchor="middle">白底文字・連結・細線 ≥4.5:1</text>
+  <text x="655" y="253" font-size="12" fill="#5c666e" text-anchor="middle">語意左條（accent）</text>
+
+  <text x="820" y="216" font-size="14" font-weight="700" fill="#1f2428" text-anchor="middle">contrastText</text>
+  <text x="820" y="236" font-size="12" fill="#5c666e" text-anchor="middle">main 上的文字</text>
+  <text x="820" y="253" font-size="12" fill="#5c666e" text-anchor="middle">自動選白／深字</text>
+
+  <!-- derived bracket -->
+  <path d="M 400 296 h 480" stroke="#b8c0c6" stroke-width="1.5" fill="none"/>
+  <path d="M 400 296 v -8 M 880 296 v -8" stroke="#b8c0c6" stroke-width="1.5" fill="none"/>
+  <text x="640" y="318" font-size="12.5" fill="#5c666e" text-anchor="middle">衍生色階：OKLCH 只降亮度・保色相彩度（derive_palette.mjs 產出）</text>
+
+  <text x="40" y="348" font-size="12.5" fill="#5c666e">範例：高彩度萊姆綠 #c3d600——品牌色不動，對比交給衍生階。</text>
+</svg>
